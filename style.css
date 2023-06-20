@@ -24,9 +24,16 @@
     font-size: 28px;
 
    }
+   div > img {
+    width: 50%;
+    
+    
+   
+   }
    figcaption {
     color: #8F8F8F;
    }
+
    h2 {
     padding: 10px;
     color:#2A2D4A;
