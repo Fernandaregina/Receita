@@ -1,55 +1,95 @@
+@import 
+url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;700&display=swap');
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
    }
-   body {
-    background-color: #EAEAEA;
-    font-family: 'Roboto', sans-serif;
+body {
+    background-color: white;
+    font-family: 'Crimson Text', serif;
+    min-height: 100vh;
     
-   }
+}
 
-   main {
-    background-color: #FFFFFF;
+main {
+    
+    background-color: #2F3461;
     border-radius: 10px;
     margin: 0px 80px 0px 80px;
-    min-height: 200px;
     padding-top: 40px;
-   }
-
-   h1 {
-    padding: 10px;
-    color:#2A2D4A;
-    text-align: center;
-    font-size: 28px;
-
-   }
-   div > img {
-    width: 50%;
-    
-    
    
-   }
-   figcaption {
-    color: #8F8F8F;
-   }
+}
+  
 
-   h2 {
-    padding: 10px;
-    color:#2A2D4A;
-    font-size: 20px;
-   }
+h1 {
+    font-family: 'Crimson Text', serif;
+    font-weight: 700;
+    padding: 2rem;
+    text-align: center;
+    color: #fff ;
+}
 
-   li {
-    padding: 5px;
-    color: #39393A;
-    font-size: 16px;
+figure {
+    display: inline-block;
+    text-align: center;
+}
+div > img {
+    width: 50%;
+    border-radius: 2rem;
+    
         
-   }
+}
+figcaption {
+    color: #8F8F8F;
+}
 
-   footer {
-    padding: 20px;
+h2 {
+    text-align: center;
+    padding: 2rem;
+    color: #6E77E0;
+    font-family: 'Crimson Text', serif;
+}
+
+.ingredientes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+}
+   
+li {
+    padding: 5px;
+    color: #fff;
+    font-size: 16px;
+    list-style-position: inside;
+    list-style-type: square;
+           
+}
+   
+.modoPreparo {
+    text-align: justify;
+    margin-left: 20%;  
+    
+}
+span {
+    display: block;
+    font-size: 20px;
+}
+p{
+    color: #fff;
+    padding: 1rem;
+    margin-left: 5%;
+    
+}
+
+footer {
+
+    padding: 30px;
     color: #8F8F8F;
     text-align: center;
-   }
+    height: 2.5rem;
+    margin-bottom: 2rem;
+}
 
